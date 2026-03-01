@@ -203,22 +203,22 @@ export const events = [
     time: "9:00 AM – 5:00 PM",
     location: "Anurag University, Hyderabad",
     participants: "300+",
-    isUpcoming: true,
+    isUpcoming: false,
     description:
       "Join us for AUNSF 3.0, our flagship event bringing together students from across the country to collaborate on innovative solutions for sustainability.",
     registrationLink: "/aunsf",
     images: [
       {
-        url: "/pics_png/GALLERY1.webp",
-        description: "Previous AUNSF event highlights",
+        url: "/events/aunsf_3/img1.jpg",
+        description: "AUNSF 3.0 Decorations",
       },
       {
-        url: "/pics_png/GALLERY2.webp",
-        description: "Students presenting their projects",
+        url: "/events/aunsf_3/img2.jpg",
+        description: "AUNSF 3.0 Marathon Participants",
       },
       {
-        url: "/pics_png/GALLERY5.webp",
-        description: "Sustainability panel discussion",
+        url: "/events/aunsf_3/img3.jpg",
+        description: "AUNSF 3.0 Group Photo",
       }
     ],
   },
@@ -250,6 +250,29 @@ export const events = [
         description: "Interactive sessions addressing gaps in rural education"
       }
     ]
+  },
+  {
+    id: 11,
+    title: "Mana Matti Vinayaka 2025",
+    date: "August 26, 2025",
+    time: "2:00 PM – 4:00 PM",
+    location: "Anurag University, Hyderabad",
+    participants: "250+ Participants | 70+ Teams",
+    isUpcoming: false,
+    description: "Mana Matti Vinayaka 2025 was a joyful eco-friendly celebration organized by AUISC, where students crafted Lord Ganesha idols using natural clay. Working in teams, participants blended creativity with devotion while promoting sustainable Ganesh Chaturthi celebrations. With enthusiastic participation and positive feedback, the event beautifully showcased how traditions can be celebrated responsibly while caring for the environment. 🌿",
+    registrationLink: "",
+    images: []
+  },
+  {
+    id: 12,
+    title: "The Bottle Canvas",
+    date: "December 5, 2025",
+    time: "12:30 PM – 4:00 PM",
+    location: "Anurag University, Hyderabad",
+    participants: "99 Participants | 33 Teams",
+    isUpcoming: false,
+    description: "The Bottle Canvas - Art from Waste was a sustainability-focused creative event where students transformed used plastic bottles into innovative artworks. Aligned with SDG 11, SDG 12, and SDG 14, the event promoted responsible consumption, waste reduction and environmental awareness.The event successfully encouraged eco-conscious thinking and creative reuse on campus.",
+    registrationLink: "",
+    images: []
   }
-  
 ];
