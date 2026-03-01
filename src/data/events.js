@@ -209,7 +209,7 @@ export const events = [
     registrationLink: "/aunsf",
     images: [
       {
-        url: "/events/aunsf_3/img1.jpg",
+        url: "/events/aunsf_3/img1.jpeg",
         description: "AUNSF 3.0 Decorations",
       },
       {
