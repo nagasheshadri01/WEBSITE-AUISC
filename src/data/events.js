@@ -197,32 +197,6 @@ export const events = [
     ],
   },
   {
-    id: 9,
-    title: "AUNSF 3.0",
-    date: "July 11-13, 2025",
-    time: "9:00 AM – 5:00 PM",
-    location: "Anurag University, Hyderabad",
-    participants: "300+",
-    isUpcoming: false,
-    description:
-      "Join us for AUNSF 3.0, our flagship event bringing together students from across the country to collaborate on innovative solutions for sustainability.",
-    registrationLink: "/aunsf",
-    images: [
-      {
-        url: "/events/aunsf_3/img1.jpeg",
-        description: "AUNSF 3.0 Decorations",
-      },
-      {
-        url: "/events/aunsf_3/img2.jpg",
-        description: "AUNSF 3.0 Marathon Participants",
-      },
-      {
-        url: "/events/aunsf_3/img3.jpg",
-        description: "AUNSF 3.0 Group Photo",
-      }
-    ],
-  },
-  {
     id: 10,
     title: "Eco-Insights Tour",
     date: "November 24-25, 2024",
@@ -250,6 +224,32 @@ export const events = [
         description: "Interactive sessions addressing gaps in rural education"
       }
     ]
+  },
+  {
+    id: 9,
+    title: "AUNSF 3.0",
+    date: "July 11-13, 2025",
+    time: "9:00 AM – 5:00 PM",
+    location: "Anurag University, Hyderabad",
+    participants: "280+ Participants | 20+ Colleges | 5 States",
+    isUpcoming: false,
+    description:
+      "A three-day national summit focused on sustainability, innovation and leadership. Guided by the theme Designing to Solve, Building to Sustain, students worked across AERONOX (Air), IGNOVA (Fire) and Public Administration to create practical, long-lasting solutions for real-world challenges.\nFeaturing mentor-led sessions, a 3 KM Sustainability Marathon, AEROBA, cultural night and final solution pitching.",
+    registrationLink: "/aunsf",
+    images: [
+      {
+        url: "/events/aunsf_3/img1.jpeg",
+        description: "AUNSF 3.0 Decorations",
+      },
+      {
+        url: "/events/aunsf_3/img2.jpg",
+        description: "AUNSF 3.0 Marathon Participants",
+      },
+      {
+        url: "/events/aunsf_3/img3.jpg",
+        description: "AUNSF 3.0 Group Photo",
+      }
+    ],
   },
   {
     id: 11,
