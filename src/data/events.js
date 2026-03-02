@@ -270,6 +270,10 @@ export const events = [
         url: "/events/mana_matti_vinayaka_2025/img2.jpg",
         description: "Eco-friendly Ganesha idols made by students.",
       },
+      {
+        url: "/events/mana_matti_vinayaka_2025/img3.jpg",
+        description: "A wider shot of the event.",
+      }
     ]
   },
   {
@@ -291,6 +295,10 @@ export const events = [
         url: "/events/the_bottle_canvas/img2.jpg",
         description: "Students showcasing their creations at The Bottle Canvas event.",
       },
+      {
+        url: "/events/the_bottle_canvas/img3.jpg",
+        description: "A closer look at the artworks.",
+      }
     ]
   }
 ];
