@@ -238,7 +238,7 @@ export const events = [
     registrationLink: "/aunsf",
     images: [
       {
-        url: "/events/aunsf_3/img1.jpeg",
+        url: "/events/aunsf_3/img1.JPG",
         description: "AUNSF 3.0 Decorations",
       },
       {
@@ -263,16 +263,16 @@ export const events = [
     registrationLink: "",
     images: [
       {
-        url: "/events/mana_matti_vinayaka_2025/img1.jpg",
-        description: "Students participating in the Mana Matti Vinayaka 2025 event.",
+        url: "/events/mana_matti_vinayaka_2025/img1.jpeg",
+        description: "Students making eco-friendly Ganesha idols.",
       },
       {
-        url: "/events/mana_matti_vinayaka_2025/img2.jpg",
-        description: "Eco-friendly Ganesha idols made by students.",
+        url: "/events/mana_matti_vinayaka_2025/img2.jpeg",
+        description: "A student proudly displaying their handcrafted Ganesha idol.",
       },
       {
-        url: "/events/mana_matti_vinayaka_2025/img3.jpg",
-        description: "A wider shot of the event.",
+        url: "/events/mana_matti_vinayaka_2025/img3.jpeg",
+        description: "A collection of beautifully crafted eco-friendly Ganesha idols.",
       }
     ]
   },
@@ -289,15 +289,15 @@ export const events = [
     images: [
       {
         url: "/events/the_bottle_canvas/img1.jpg",
-        description: "Artwork created from plastic bottles.",
+        description: "Creative artwork made from upcycled plastic bottles.",
       },
       {
         url: "/events/the_bottle_canvas/img2.jpg",
-        description: "Students showcasing their creations at The Bottle Canvas event.",
+        description: "Participants with their innovative bottle art creations.",
       },
       {
         url: "/events/the_bottle_canvas/img3.jpg",
-        description: "A closer look at the artworks.",
+        description: "A stunning display of art created from waste materials.",
       }
     ]
   }
