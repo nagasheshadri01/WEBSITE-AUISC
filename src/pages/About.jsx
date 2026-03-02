@@ -304,6 +304,12 @@ const About = () => {
                     year: "2025",
                     title: "AUNSF 3.0",
                     description: "Preparing for AUNSF 3.0, aiming to create an even more impactful platform for engineering students."
+                  },
+                  {
+                    year: "2026",
+                    title: "Best Student Chapter Award 2026",
+                    description: "Recognized as the Best Student Chapter by the IUCEE for the second time, a testament to our continued dedication and teamwork.",
+                    image: "/achievements/best_student_chapter_2026.jpg"
                   }
                 ].map((item, index) => (
                   <motion.div
