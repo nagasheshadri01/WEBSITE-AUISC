@@ -295,6 +295,12 @@ const About = () => {
                     description: "Expanded our reach with AUNSF 2.0, introducing new initiatives and programs for student development."
                   },
                   {
+                    year: "2024",
+                    title: "Best Student Chapter Award",
+                    description: "Recognized as the Best Student Chapter by the IUCEE, a testament to our dedication and teamwork.",
+                    image: "/achievements/best_student_chapter.jpg"
+                  },
+                  {
                     year: "2025",
                     title: "AUNSF 3.0",
                     description: "Preparing for AUNSF 3.0, aiming to create an even more impactful platform for engineering students."
@@ -331,6 +337,7 @@ const About = () => {
                           <h3 className="text-xl font-bold text-dark-blue-purple">{item.title}</h3>
                         </motion.div>
                         <p className="text-dark-blue-purple leading-relaxed">{item.description}</p>
+                        {item.image && <img src={item.image} alt={item.title} className="mt-4 rounded-lg" />}
                       </motion.div>
                     </div>
                     <motion.div 
@@ -435,4 +442,4 @@ const About = () => {
   );
 };
 
-export default About; 
+export default About;
