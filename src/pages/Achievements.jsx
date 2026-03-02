@@ -222,6 +222,35 @@ const Achievements = () => {
                 </p>
               </div>
             </motion.div>
+
+            {/* Chapter Award 2026 */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              whileHover={{ scale: 1.02, y: -5 }}
+              className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              <div className="flex items-center gap-4 mb-6">
+                <div className="bg-bright-orange/10 p-4 rounded-xl">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-bright-orange">
+                    <circle cx="12" cy="8" r="6"/>
+                    <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+                  </svg>
+                </div>
+                <div>
+                  <span className="text-sm font-medium text-dark-blue-purple/70">2026</span>
+                  <h3 className="text-xl font-bold text-dark-blue-purple">Best Student Chapter</h3>
+                </div>
+              </div>
+              <div className="space-y-4">
+                <h4 className="text-lg font-semibold text-bright-orange">ICTIEE 2026</h4>
+                <p className="text-dark-blue-purple leading-relaxed">
+                  Recognized as the Best Student Chapter, reflecting our dedication and teamwork.
+                </p>
+              </div>
+            </motion.div>
           </div>
         </motion.div>
       </div>
@@ -564,4 +593,4 @@ const Achievements = () => {
   );
 };
 
-export default Achievements; 
+export default Achievements;
