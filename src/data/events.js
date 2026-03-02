@@ -261,7 +261,16 @@ export const events = [
     isUpcoming: false,
     description: "Mana Matti Vinayaka 2025 was a joyful eco-friendly celebration organized by AUISC, where students crafted Lord Ganesha idols using natural clay. Working in teams, participants blended creativity with devotion while promoting sustainable Ganesh Chaturthi celebrations. With enthusiastic participation and positive feedback, the event beautifully showcased how traditions can be celebrated responsibly while caring for the environment. 🌿",
     registrationLink: "",
-    images: []
+    images: [
+      {
+        url: "/events/mana_matti_vinayaka_2025/img1.jpg",
+        description: "Students participating in the Mana Matti Vinayaka 2025 event.",
+      },
+      {
+        url: "/events/mana_matti_vinayaka_2025/img2.jpg",
+        description: "Eco-friendly Ganesha idols made by students.",
+      },
+    ]
   },
   {
     id: 12,
@@ -273,6 +282,15 @@ export const events = [
     isUpcoming: false,
     description: "The Bottle Canvas - Art from Waste was a sustainability-focused creative event where students transformed used plastic bottles into innovative artworks. Aligned with SDG 11, SDG 12, and SDG 14, the event promoted responsible consumption, waste reduction and environmental awareness.The event successfully encouraged eco-conscious thinking and creative reuse on campus.",
     registrationLink: "",
-    images: []
+    images: [
+      {
+        url: "/events/the_bottle_canvas/img1.jpg",
+        description: "Artwork created from plastic bottles.",
+      },
+      {
+        url: "/events/the_bottle_canvas/img2.jpg",
+        description: "Students showcasing their creations at The Bottle Canvas event.",
+      },
+    ]
   }
 ];
